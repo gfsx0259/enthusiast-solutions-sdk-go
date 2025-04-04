@@ -37,7 +37,7 @@ func TestGate(t *testing.T) {
 	payment.SetParam("payment_amount", 1000)
 	payment.SetParam("some_future_bool_param", true)
 
-	gate := NewGate("qwerty")
+	gate := NewGate("qwerty", "https://paymentpage.enthusiast.com")
 
 	gate.SetBaseUrl("http://test.test/pay")
 	paymentPageUrl := gate.GetPaymentPageUrl(*payment)

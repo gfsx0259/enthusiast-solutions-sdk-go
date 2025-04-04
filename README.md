@@ -2,6 +2,8 @@
 
 # Enthusiast Solutions payment page SDK
 
+![Logo](logo.png)
+
 This is a set of libraries in the Go language to ease integration of your service
 with the Enthusiast Solutions Payment Page.
 

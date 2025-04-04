@@ -10,7 +10,7 @@ func TestPaymentPage(t *testing.T) {
 	t.Parallel()
 
 	signatureHandler := NewSignatureHandler("qwerty")
-	paymentPage := NewPaymentPage(*signatureHandler)
+	paymentPage := NewPaymentPage(*signatureHandler, "https://paymentpage.enthusiast.com")
 
 	compareBaseUrl := "https://test.test/pay"
 	comparePaymentHost := "test.test"
